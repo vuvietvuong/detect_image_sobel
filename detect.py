@@ -23,7 +23,6 @@ def rgb2gray(rgb):
 			tmp = 0.2989 * r + 0.5870 * g + 0.1140 * b
 			gray.append(tmp)
 		img_gray.append(gray)
-	img_gray = np.uint8(img_gray)
 	return img_gray
 	
 #threshold lấy ngưỡng để chuyển thành ảnh đen trắng
